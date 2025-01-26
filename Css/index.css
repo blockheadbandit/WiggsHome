@@ -76,6 +76,7 @@
 body{
   background-color: black;
   background-image: url(../res/bg.png);
+  font-size:larger;
 }
 
 body::before{
@@ -105,12 +106,15 @@ body::before{
   border: #ffffff;
   border-style: dashed;
 }
+a{
+  color:#FFB000;
+}
 h1{
   padding-left: 0.5vw;
 }
 p{
   padding-left: 0.25vw;
-  font-size: large;
+  font-size: 19px;
   margin: 0.5%;
 }
 .inlineButtonS{
